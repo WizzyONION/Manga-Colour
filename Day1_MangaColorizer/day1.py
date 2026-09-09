@@ -9,7 +9,7 @@ IMAGE_PATH = Path(__file__).with_name("manga.png")
 
 
 def main() -> None:
-    """Print basic metadata for the manga source image."""
+  
     try:
         with Image.open(IMAGE_PATH) as img:
             print(f"Width and height: {img.size}")
